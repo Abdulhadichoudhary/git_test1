@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Document</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic form design using HTML</h3>
+    <fieldset id="fieldset">
+        <legend>Registration Form</legend>
+        <form>
+            First Name : <input type="text" name="firstname" id="fname">
+            <br><br>
+            Last Name : <input type="text" name="lastname" id="lname">
+            <br><br> 
+            Email : <input type="email" name="email" id="email">
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+            <br><br>
+            Date of Birth: <input type="date" name="date" id="date">
+            <br><br>
+            Address:
+            <br>
+            <textarea name="address" id="address"></textarea>
+
+            <br><br>
+            <input type="checkbox" name="checkbox" id="checkbox"> I accept the terms and conditions
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
 </body>
+
 </html>
